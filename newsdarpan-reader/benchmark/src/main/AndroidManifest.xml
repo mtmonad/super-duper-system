@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.newsdarpan.reader.benchmark">
+    <!--
+        This is needed to run benchmark tests against
+        profileable builds.
+    -->
+    <application>
+        <profileable android:shell="true" />
+    </application>
+</manifest>
