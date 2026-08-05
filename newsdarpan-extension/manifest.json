@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "NewsDarpan Notifier",
+  "version": "1.0",
+  "description": "Get notifications for the latest news posted on NewsDarpan.",
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://newsdarpan.in/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
